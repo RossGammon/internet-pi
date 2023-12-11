@@ -1,10 +1,2 @@
-1.Add static website, using git clone
-a. make sure git is installed
-	name: install git
-	package: name=git
-b. clone website repo and copy to webserver directory
-	name: deploy website
-	git: repo=https://github.com.........git
-	dest=/usr....www.var?..../html?
-2. Play with enabling docker bit, and each tool one at a time until the pi 3 is 100% CPU (network stats might be limited by pi NIC - rather than the actuall internet speed).
-3. Move the internet stuff to a newer pi (e.g. Pi4), keeping the static website on the pi 3, so it can defintely be enabled.
+1. Play with enabling docker bit, and each tool one at a time until the pi 3 is 100% CPU (network stats might be limited by pi NIC - rather than the actuall internet speed).
+2. Move the internet stuff to a newer pi (e.g. Pi4), keeping the static website on the pi 3, so it can defintely be enabled.
